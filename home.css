@@ -1,0 +1,25 @@
+.top-grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr ;
+    align-items: center;
+    margin-bottom: 10px;
+    column-gap: 2px;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.image-1{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.second-grid{
+    
+}
