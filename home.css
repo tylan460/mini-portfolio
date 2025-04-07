@@ -29,7 +29,7 @@ p{
 .second-grid{
     display: grid;
     grid-template-columns: 8fr 2fr;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     align-items: center;
 }
 
@@ -43,4 +43,25 @@ p{
 .cropped-image{
     width: 100px;
     margin-right: 20px;
+}
+
+.bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.image-links-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.image-link-style{
+    margin-top: 20px;
+    width: 30px;
+
 }
